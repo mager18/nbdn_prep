@@ -1,0 +1,77 @@
+Tests run: 21, Failures: 18, Skipped: 0, Ignored: 0
+Failures:
+1) nothinbutdotnetprep.tests.MovieLibrarySpecs+when_asked_for_all_of_the_movies.setup.should_receive_a_set_containing_each_movie_in_the_library.tear_down :
+The method or operation is not implemented.
+   at nothinbutdotnetprep.collections.MovieLibrary.all_movies() in c:\repositories\github\nbdn_prep\exercise_to_complete_for_day_1\product\nothinbutdotnetprep\collections\MovieLibrary.cs:line 14
+   at nothinbutdotnetprep.tests.MovieLibrarySpecs.when_asked_for_all_of_the_movies.&lt;.ctor&gt;b__9() in c:\repositories\github\nbdn_prep\exercise_to_complete_for_day_1\product\nothinbutdotnetprep.tests\MovieLibrarySpecs.cs:line 103
+2) nothinbutdotnetprep.tests.MovieLibrarySpecs+when_searching_for_movies.setup.should_be_able_to_find_all_movies_published_by_pixar.tear_down :
+The method or operation is not implemented.
+   at nothinbutdotnetprep.collections.MovieLibrary.all_movies_published_by_pixar() in c:\repositories\github\nbdn_prep\exercise_to_complete_for_day_1\product\nothinbutdotnetprep\collections\MovieLibrary.cs:line 29
+   at nothinbutdotnetprep.tests.MovieLibrarySpecs.when_searching_for_movies.&lt;.ctor&gt;b__33() in c:\repositories\github\nbdn_prep\exercise_to_complete_for_day_1\product\nothinbutdotnetprep.tests\MovieLibrarySpecs.cs:line 215
+3) nothinbutdotnetprep.tests.MovieLibrarySpecs+when_searching_for_movies.setup.should_be_able_to_find_all_movies_published_by_pixar_or_disney.tear_down :
+The method or operation is not implemented.
+   at nothinbutdotnetprep.collections.MovieLibrary.all_movies_published_by_pixar_or_disney() in c:\repositories\github\nbdn_prep\exercise_to_complete_for_day_1\product\nothinbutdotnetprep\collections\MovieLibrary.cs:line 34
+   at nothinbutdotnetprep.tests.MovieLibrarySpecs.when_searching_for_movies.&lt;.ctor&gt;b__34() in c:\repositories\github\nbdn_prep\exercise_to_complete_for_day_1\product\nothinbutdotnetprep.tests\MovieLibrarySpecs.cs:line 222
+4) nothinbutdotnetprep.tests.MovieLibrarySpecs+when_searching_for_movies.setup.should_be_able_to_find_all_movies_not_published_by_pixar.tear_down :
+The method or operation is not implemented.
+   at nothinbutdotnetprep.collections.MovieLibrary.all_movies_not_published_by_pixar() in c:\repositories\github\nbdn_prep\exercise_to_complete_for_day_1\product\nothinbutdotnetprep\collections\MovieLibrary.cs:line 49
+   at nothinbutdotnetprep.tests.MovieLibrarySpecs.when_searching_for_movies.&lt;.ctor&gt;b__35() in c:\repositories\github\nbdn_prep\exercise_to_complete_for_day_1\product\nothinbutdotnetprep.tests\MovieLibrarySpecs.cs:line 229
+5) nothinbutdotnetprep.tests.MovieLibrarySpecs+when_searching_for_movies.setup.should_be_able_to_find_all_movies_published_after_a_certain_year.tear_down :
+The method or operation is not implemented.
+   at nothinbutdotnetprep.collections.MovieLibrary.all_movies_published_after(Int32 year) in c:\repositories\github\nbdn_prep\exercise_to_complete_for_day_1\product\nothinbutdotnetprep\collections\MovieLibrary.cs:line 54
+   at nothinbutdotnetprep.tests.MovieLibrarySpecs.when_searching_for_movies.&lt;.ctor&gt;b__36() in c:\repositories\github\nbdn_prep\exercise_to_complete_for_day_1\product\nothinbutdotnetprep.tests\MovieLibrarySpecs.cs:line 236
+6) nothinbutdotnetprep.tests.MovieLibrarySpecs+when_searching_for_movies.setup.should_be_able_to_find_all_movies_published_between_a_certain_range_of_years.tear_down :
+The method or operation is not implemented.
+   at nothinbutdotnetprep.collections.MovieLibrary.all_movies_published_between_years(Int32 startingYear, Int32 endingYear) in c:\repositories\github\nbdn_prep\exercise_to_complete_for_day_1\product\nothinbutdotnetprep\collections\MovieLibrary.cs:line 59
+   at nothinbutdotnetprep.tests.MovieLibrarySpecs.when_searching_for_movies.&lt;.ctor&gt;b__37() in c:\repositories\github\nbdn_prep\exercise_to_complete_for_day_1\product\nothinbutdotnetprep.tests\MovieLibrarySpecs.cs:line 243
+7) nothinbutdotnetprep.tests.MovieLibrarySpecs+when_searching_for_movies.setup.should_be_able_to_find_all_kid_movies.tear_down :
+The method or operation is not implemented.
+   at nothinbutdotnetprep.collections.MovieLibrary.all_kid_movies() in c:\repositories\github\nbdn_prep\exercise_to_complete_for_day_1\product\nothinbutdotnetprep\collections\MovieLibrary.cs:line 64
+   at nothinbutdotnetprep.tests.MovieLibrarySpecs.when_searching_for_movies.&lt;.ctor&gt;b__38() in c:\repositories\github\nbdn_prep\exercise_to_complete_for_day_1\product\nothinbutdotnetprep.tests\MovieLibrarySpecs.cs:line 250
+8) nothinbutdotnetprep.tests.MovieLibrarySpecs+when_searching_for_movies.setup.should_be_able_to_find_all_action_movies.tear_down :
+The method or operation is not implemented.
+   at nothinbutdotnetprep.collections.MovieLibrary.all_action_movies() in c:\repositories\github\nbdn_prep\exercise_to_complete_for_day_1\product\nothinbutdotnetprep\collections\MovieLibrary.cs:line 69
+   at nothinbutdotnetprep.tests.MovieLibrarySpecs.when_searching_for_movies.&lt;.ctor&gt;b__39() in c:\repositories\github\nbdn_prep\exercise_to_complete_for_day_1\product\nothinbutdotnetprep.tests\MovieLibrarySpecs.cs:line 257
+9) nothinbutdotnetprep.tests.MovieLibrarySpecs+when_adding_a_movie_to_the_library.setup.should_store_it_in_the_movie_collection.tear_down :
+The method or operation is not implemented.
+   at nothinbutdotnetprep.collections.MovieLibrary.add(Movie movie) in c:\repositories\github\nbdn_prep\exercise_to_complete_for_day_1\product\nothinbutdotnetprep\collections\MovieLibrary.cs:line 19
+   at nothinbutdotnetprep.tests.MovieLibrarySpecs.when_adding_a_movie_to_the_library.&lt;.ctor&gt;b__17() in c:\repositories\github\nbdn_prep\exercise_to_complete_for_day_1\product\nothinbutdotnetprep.tests\MovieLibrarySpecs.cs:line 149
+10) nothinbutdotnetprep.tests.MovieLibrarySpecs+when_trying_to_change_the_set_of_movies_returned_by_the_movie_library_to_a_mutable_type.setup.should_get_an_invalid_cast_exception.tear_down :
+
+   at MbUnit.Framework.Assert.Fail(String message)
+   at MbUnit.Framework.Assert.IsInstanceOfType(Type expected, Object actual)
+   at developwithpassion.bdd.harnesses.mbunit.AssertionExtensions.should_be_an[Type](Object item) in c:\repositories\developwithpassion\developwithpassion.bdd\product\developwithpassion.bdd\harnesses\mbunit\AssertionExtensions.cs:line 49
+   at developwithpassion.bdd.harnesses.mbunit.AssertionExtensions.should_be_an_instance_of[Type](Object item) in c:\repositories\developwithpassion\developwithpassion.bdd\product\developwithpassion.bdd\harnesses\mbunit\AssertionExtensions.cs:line 44
+   at nothinbutdotnetprep.tests.MovieLibrarySpecs.when_trying_to_change_the_set_of_movies_returned_by_the_movie_library_to_a_mutable_type.&lt;.ctor&gt;b__11() in c:\repositories\github\nbdn_prep\exercise_to_complete_for_day_1\product\nothinbutdotnetprep.tests\MovieLibrarySpecs.cs:line 132
+11) nothinbutdotnetprep.tests.MovieLibrarySpecs+when_sorting_movies.setup.should_be_able_to_sort_all_movies_by_title_descending.tear_down :
+The method or operation is not implemented.
+   at nothinbutdotnetprep.collections.MovieLibrary.sort_all_movies_by_title_descending() in c:\repositories\github\nbdn_prep\exercise_to_complete_for_day_1\product\nothinbutdotnetprep\collections\MovieLibrary.cs:line 24
+   at nothinbutdotnetprep.tests.MovieLibrarySpecs.when_sorting_movies.&lt;.ctor&gt;b__41() in c:\repositories\github\nbdn_prep\exercise_to_complete_for_day_1\product\nothinbutdotnetprep.tests\MovieLibrarySpecs.cs:line 273
+12) nothinbutdotnetprep.tests.MovieLibrarySpecs+when_sorting_movies.setup.should_be_able_to_sort_all_movies_by_title_ascending.tear_down :
+The method or operation is not implemented.
+   at nothinbutdotnetprep.collections.MovieLibrary.sort_all_movies_by_title_ascending() in c:\repositories\github\nbdn_prep\exercise_to_complete_for_day_1\product\nothinbutdotnetprep\collections\MovieLibrary.cs:line 39
+   at nothinbutdotnetprep.tests.MovieLibrarySpecs.when_sorting_movies.&lt;.ctor&gt;b__42() in c:\repositories\github\nbdn_prep\exercise_to_complete_for_day_1\product\nothinbutdotnetprep.tests\MovieLibrarySpecs.cs:line 282
+13) nothinbutdotnetprep.tests.MovieLibrarySpecs+when_sorting_movies.setup.should_be_able_to_sort_all_movies_by_date_published_descending.tear_down :
+The method or operation is not implemented.
+   at nothinbutdotnetprep.collections.MovieLibrary.sort_all_movies_by_date_published_descending() in c:\repositories\github\nbdn_prep\exercise_to_complete_for_day_1\product\nothinbutdotnetprep\collections\MovieLibrary.cs:line 74
+   at nothinbutdotnetprep.tests.MovieLibrarySpecs.when_sorting_movies.&lt;.ctor&gt;b__43() in c:\repositories\github\nbdn_prep\exercise_to_complete_for_day_1\product\nothinbutdotnetprep.tests\MovieLibrarySpecs.cs:line 290
+14) nothinbutdotnetprep.tests.MovieLibrarySpecs+when_sorting_movies.setup.should_be_able_to_sort_all_movies_by_date_published_ascending.tear_down :
+The method or operation is not implemented.
+   at nothinbutdotnetprep.collections.MovieLibrary.sort_all_movies_by_date_published_ascending() in c:\repositories\github\nbdn_prep\exercise_to_complete_for_day_1\product\nothinbutdotnetprep\collections\MovieLibrary.cs:line 79
+   at nothinbutdotnetprep.tests.MovieLibrarySpecs.when_sorting_movies.&lt;.ctor&gt;b__44() in c:\repositories\github\nbdn_prep\exercise_to_complete_for_day_1\product\nothinbutdotnetprep.tests\MovieLibrarySpecs.cs:line 298
+15) nothinbutdotnetprep.tests.MovieLibrarySpecs+when_sorting_movies.setup.should_be_able_to_sort_all_movies_by_studio_rating_and_year_published.tear_down :
+The method or operation is not implemented.
+   at nothinbutdotnetprep.collections.MovieLibrary.sort_all_movies_by_movie_studio_and_year_published() in c:\repositories\github\nbdn_prep\exercise_to_complete_for_day_1\product\nothinbutdotnetprep\collections\MovieLibrary.cs:line 44
+   at nothinbutdotnetprep.tests.MovieLibrarySpecs.when_sorting_movies.&lt;.ctor&gt;b__45() in c:\repositories\github\nbdn_prep\exercise_to_complete_for_day_1\product\nothinbutdotnetprep.tests\MovieLibrarySpecs.cs:line 312
+16) nothinbutdotnetprep.tests.MovieLibrarySpecs+when_adding_two_different_copies_of_the_same_movie.setup.should_store_only_1_copy_in_the_collection.tear_down :
+The method or operation is not implemented.
+   at nothinbutdotnetprep.collections.MovieLibrary.add(Movie movie) in c:\repositories\github\nbdn_prep\exercise_to_complete_for_day_1\product\nothinbutdotnetprep\collections\MovieLibrary.cs:line 19
+   at nothinbutdotnetprep.tests.MovieLibrarySpecs.when_adding_two_different_copies_of_the_same_movie.&lt;.ctor&gt;b__25() in c:\repositories\github\nbdn_prep\exercise_to_complete_for_day_1\product\nothinbutdotnetprep.tests\MovieLibrarySpecs.cs:line 196
+17) nothinbutdotnetprep.tests.MovieLibrarySpecs+when_counting_the_number_of_movies.setup.should_return_the_number_of_all_movies_in_the_library.tear_down :
+The method or operation is not implemented.
+   at nothinbutdotnetprep.collections.MovieLibrary.all_movies() in c:\repositories\github\nbdn_prep\exercise_to_complete_for_day_1\product\nothinbutdotnetprep\collections\MovieLibrary.cs:line 14
+   at nothinbutdotnetprep.tests.MovieLibrarySpecs.when_counting_the_number_of_movies.&lt;.ctor&gt;b__3() in c:\repositories\github\nbdn_prep\exercise_to_complete_for_day_1\product\nothinbutdotnetprep.tests\MovieLibrarySpecs.cs:line 77
+18) nothinbutdotnetprep.tests.MovieLibrarySpecs+when_adding_an_existing_movie_in_the_collection_again.setup.should_not_restore_the_movie_in_the_collection.tear_down :
+The method or operation is not implemented.
+   at nothinbutdotnetprep.collections.MovieLibrary.add(Movie movie) in c:\repositories\github\nbdn_prep\exercise_to_complete_for_day_1\product\nothinbutdotnetprep\collections\MovieLibrary.cs:line 19
+   at nothinbutdotnetprep.tests.MovieLibrarySpecs.when_adding_an_existing_movie_in_the_collection_again.&lt;.ctor&gt;b__1d() in c:\repositories\github\nbdn_prep\exercise_to_complete_for_day_1\product\nothinbutdotnetprep.tests\MovieLibrarySpecs.cs:line 172
